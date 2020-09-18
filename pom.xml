@@ -11,6 +11,7 @@
 	<groupId>com.ifpb.sd.firstDeployment</groupId>
 	<artifactId>firstDeployment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>firstDeployment</name>
 	<description>SD 2020.1</description>
 
@@ -48,6 +49,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>firstDeployment</finalName>
 	</build>
 
 </project>
